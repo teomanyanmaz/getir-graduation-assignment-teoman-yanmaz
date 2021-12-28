@@ -33,6 +33,6 @@ app.all("*", (req, res) => {
   });
 });
 
-app.listen(process.env.APP_PORT, () => {
-  console.log(`App listening on: ${process.env.APP_PORT}`);
+app.listen(process.env.PORT, () => {
+  console.log(`App listening on: ${process.env.PORT}`);
 });
